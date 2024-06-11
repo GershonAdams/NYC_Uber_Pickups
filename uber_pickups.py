@@ -27,10 +27,10 @@ load_data_state = st.text("Loading data...")
 data = load_data(10000)
 
 # Notify the reader that the data was successfully loaded.
-# load_data_state.text("Done! (using st.cache_data)")
+load_data_state.text("Done loading data!")
 
 if st.checkbox('Show dataset?'):
-    st.subheader(":orange[The Dataset Used For This Analysis]")
+    st.subheader(":orange[An Extract Of The Dataset Used For This Analysis]")
     st.write(data)
 
 # Draw a histogram
