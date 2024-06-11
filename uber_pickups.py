@@ -4,7 +4,7 @@ import numpy as np
 
 st.set_page_config(layout='wide', page_icon="📊", page_title='NYC Uber Pickups')
 
-st.write(":orange[# NEW CITY UBER PICKUPS]")
+st.write("# :orange[NEW CITY UBER PICKUPS]")
 st.subheader("", divider=True)
 
 DATE_COLUMN = 'date/time'
