@@ -4,7 +4,8 @@ import numpy as np
 
 st.set_page_config(layout='wide', page_icon="📊", page_title='NYC Uber Pickups')
 
-st.write("# NEW CITY UBER PICKUPS", divider=True)
+st.write(":orange[# NEW CITY UBER PICKUPS]")
+st.subheader("", divider=True)
 
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
