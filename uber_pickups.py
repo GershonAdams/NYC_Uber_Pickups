@@ -29,8 +29,8 @@ data = load_data(10000)
 # Notify the reader that the data was successfully loaded.
 load_data_state.text("Done! (using st.cache_data)")
 
-if st.checkbox('Show raw data?'):
-    st.subheader(":orange[Raw data]", divider=True)
+if st.checkbox('Show dataset?'):
+    st.subheader(":orange[The Dataset Used For This Analysis]")
     st.write(data)
 
 # Draw a histogram
