@@ -2,8 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+st.set_page_config(layout='wide', page_icon="📊", page_title='NYC Uber Pickups')
 
-st.title("Uber pickups in NYC")
+st.write("# NEW CITY UBER PICKUPS", divider=True)
 
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
